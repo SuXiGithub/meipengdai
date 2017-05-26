@@ -1,0 +1,163 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jiutong.meipengdai.ui.fragments.LoanFragment">
+    <ImageView
+        android:id="@+id/iv_ads"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/banner" />
+
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="40dp"
+        android:background="@mipmap/msg_icon" />
+
+    <RelativeLayout
+        android:id="@+id/rl_custom_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/iv_ads"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="23dp"
+        android:gravity="center">
+
+        <com.jiutong.meipengdai.views.CircleView
+            android:id="@+id/circleview"
+            android:layout_width="150dip"
+            android:layout_height="150dip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="我的额度"
+                android:textColor="@color/main_text_selected"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500万"
+                android:textColor="@color/main_text_selected"
+                android:textSize="29sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="我的额度"
+                android:textColor="@color/main_text_selected"
+                android:textSize="9sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_money_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_custom_view"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="12dp"
+            android:layout_height="10dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/orenge" />
+
+        <TextView
+            android:id="@+id/tv_usable_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/usable_money"
+            android:textColor="@color/main_text_selected" />
+
+        <View
+            android:layout_width="12dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/main_thin_gray" />
+
+        <TextView
+            android:id="@+id/tv_used_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/used_money" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_gujia_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="35dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginRight="5dp"
+            android:background="@mipmap/take_photo_icon" />
+
+        <TextView
+            android:id="@+id/tv_take_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="7dp"
+            android:text="@string/house_take_photo"
+            android:textColor="@color/main_text_selected" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="10dp"
+            android:background="@color/cut_line" />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="5dp"
+            android:background="@mipmap/fix_position_icon" />
+
+        <TextView
+            android:id="@+id/tv_dingwei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fix_position"
+            android:textColor="@color/main_text_selected" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_apply_loan"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/main_apply_button_selector"
+        android:gravity="center"
+        android:text="申请贷款"
+        android:textColor="@color/white"
+        android:layout_below="@+id/ll_money_desc"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

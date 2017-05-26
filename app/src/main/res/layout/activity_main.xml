@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".ui.activitys.MainActivity">
+
+    <RadioGroup
+        android:id="@+id/main_tab_group"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/MainRadioButton"
+            android:layout_weight="1.0"
+            android:checked="true"
+            android:drawableTop="@drawable/home_button_selector"
+            android:text="@string/main" />
+
+        <RadioButton
+            android:id="@+id/rb_loan"
+            style="@style/MainRadioButton"
+            android:layout_weight="1.0"
+            android:drawableTop="@drawable/loan_button_selector"
+            android:text="@string/loan" />
+
+        <RadioButton
+            android:id="@+id/rb_person"
+            style="@style/MainRadioButton"
+            android:layout_weight="1.0"
+            android:drawableTop="@drawable/mine_button_selector"
+            android:text="@string/mine" />
+
+    </RadioGroup>
+
+    <View
+        android:id="@+id/deliver_line"
+        android:layout_width="match_parent"
+        android:background="@color/cut_line"
+        android:layout_above="@id/main_tab_group"
+        android:layout_height="1px"/>
+
+
+    <FrameLayout
+        android:id="@+id/main_frameLayout"
+        android:layout_width="match_parent"
+        android:layout_above="@id/deliver_line"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+</RelativeLayout>

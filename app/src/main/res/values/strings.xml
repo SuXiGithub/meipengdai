@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">美鹏贷</string>
+    <string name="main">首页</string>
+    <string name="loan">贷款</string>
+    <string name="mine">个人</string>
+    <string name="house_take_photo">房产拍照</string>
+    <string name="fix_position">定位估价</string>
+    <string name="usable_money">可用额度</string>
+    <string name="used_money">已用额度</string>
+    <string name="loan_desc">完成估价，贷款额度无上限</string>
+    <string name="pinggu">额度评估</string>
+
+    <!-- 额度估价 -->
+    <string name="location">所在城市</string>
+    <string name="house_pic">房产证</string>
+    <string name="village">小区</string>
+    <string name="area">面积</string>
+    <string name="orientation">朝向</string>
+    <string name="floor">楼层</string>
+    <string name="village_desc">请输入小区名称</string>
+    <string name="area_desc">请输入房产面积</string>
+    <string name="orientation_desc">请选择朝向</string>
+    <string name="where_floor_desc">第几层</string>
+    <string name="total_floor_desc">总楼层</string>
+    <string name="keep_fill">继续填写，评估额度更准确</string>
+    <string name="submit">提交</string>
+    <string name="scan_house_pic">扫描房产证照片</string>
+</resources>

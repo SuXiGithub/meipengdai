@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme" parent="@style/BaseAppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!-- 首页底部radiogroup -->
+    <style name="MainRadioButton">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/white_ripple</item>
+        <item name="android:textSize">9.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:drawablePadding">1dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/tabbar_selected_text_bg</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:paddingTop">2.0dip</item>
+    </style>
+
+    <!-- 首页按钮 -->
+    <style name="main_orange_round_button_sytle">
+        <item name="android:background">@drawable/main_apply_button_selector</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+    <!-- 額度評估 -->
+    <style name="evaluate_text_sytle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/loan_desc</item>
+    </style>
+
+    <style name="evaluate_text2_sytle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/light_black</item>
+    </style>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="gray">#999999</color>
+
+    <!--首页应用-->
+    <color name="orenge">#ffDE4B30</color>
+    <color name="orenge1">#fbe5cd</color>
+    <color name="main_text_selected">#fff09738</color>
+    <color name="main_text_noselected">#1f1f1f</color>
+    <color name="cut_line">#cccccc</color>
+    <color name="main_thin_gray">#e6e6e6</color>
+    <color name="main_gray_shadow">#333333</color>
+    <color name="main_orange_shadow">#f09738</color>
+    <color name="loan_desc">#1f1f1f</color>
+
+    <!-- 額度评价-->
+
+    <color name="light_black">#999999</color>
+    <color name="bg_light_gray">#f5f5f5</color>
+
+
+</resources>
